@@ -113,6 +113,44 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="carousel-item1">
+        <img src="carrusel3.jpeg" alt="Imagen 3" />
+        <div className="carousel-overlay">
+        <div className="carousel-caption">
+            <h2 >28 y 29 de Septiembre</h2>
+            <h2 style={{color: '#ffdf00'}}><FaLocationDot/> San Pedro Sula, Honduras</h2>
+            <Countdown/>
+            <Button
+                key='inscribirse'
+                onClick={() =>
+                  (window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=uVcFQ3x26UyuVpcXdaiXqOyoI4O7oldNhUH2OwbwefxUNkNISDNQNjFIUTlGOEFBODkxUzhYUFM3Qy4u', '_blank')
+                )}
+                sx={{  color: 'white', backgroundColor: 'rgb(0, 0, 141)', fontSize: '18px' }}
+              >
+                 Pre-Inscripción
+            </Button>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item1">
+        <img src="carrusel4.png" alt="Imagen 4" />
+        <div className="carousel-overlay">
+        <div className="carousel-caption">
+            <h2 >28 y 29 de Septiembre</h2>
+            <h2 style={{color: '#ffdf00'}}><FaLocationDot/> San Pedro Sula, Honduras</h2>
+            <Countdown/>
+            <Button
+                key='inscribirse'
+                onClick={() =>
+                  (window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=uVcFQ3x26UyuVpcXdaiXqOyoI4O7oldNhUH2OwbwefxUNkNISDNQNjFIUTlGOEFBODkxUzhYUFM3Qy4u', '_blank')
+                )}
+                sx={{  color: 'white', backgroundColor: 'rgb(0, 0, 141)', fontSize: '18px' }}
+              >
+                 Pre-Inscripción
+            </Button>
+          </div>
+        </div>
+      </div>
     </Carousel>
 
     <Section
