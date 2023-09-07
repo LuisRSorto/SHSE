@@ -120,7 +120,7 @@ const App = () => {
       title= 'Acerca del Evento'
       imageSrc='presentacionImage.png'
     />
-    <div style={{ padding: '3em' , display:'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: '1em', marginBottom: '5em'}}>
+    <div className='eventsSection'>
         <div className='eventos'>
           <img className='eventosImg' width="150px" height="150px" src={'conferencia.png'} alt='Conferencias'/>
           <p style={{ marginTop: 0, fontWeight: 'bold', marginBottom:0, color: '#a90087', fontSize: '50px', }}>6</p>

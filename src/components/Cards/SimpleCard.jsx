@@ -6,7 +6,7 @@ import { VscActivateBreakpoints } from "react-icons/vsc";
 
 export default function SimpleCard({arreglo}) {
   return (
-    <div style={{display: 'flex', flexWrap: 'wrap'}}>
+    <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
     { arreglo.map((card) => (
         <Card sx={{ margin: 4, width: 310, maxHeight: 100, marginBottom: 0, boxShadow: '0 5px 8px 0 rgba(0, 0, 0, 0.3)'}}>
           <CardContent sx={{display: 'flex', flexDirection: 'column'}}>
