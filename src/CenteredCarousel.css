@@ -1,5 +1,4 @@
 .carousel-item {
-   
     height: 100vh;
   }
   img{
@@ -60,7 +59,11 @@
 
   @media (max-width: 768px) {
     .carousel-item {
-      height: 85vh;
+      height: 65vh;
+    }
+
+    .carousel-caption {
+      margin-top: 100px;
     }
 
     .eventsSection{  
