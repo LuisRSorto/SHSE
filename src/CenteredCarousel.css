@@ -1,8 +1,15 @@
-  .carousel-item {
+.carousel-item1 {
+  height: 100vh;
+  background-position: center;
+  background-image: url('/public/carrusel2.png');
+  background-size: cover;
+}
+  .carousel-item2 {
     height: 100vh;
     background-position: center;
     background-image: url('/public/carrusel2.png');
     background-size: cover;
+   background-position: initial;
   }
 
 
@@ -62,8 +69,12 @@
   }
 
   @media (max-width: 768px) {
-    .carousel-item {
+    .carousel-item1 {
       height: 65vh;
+    }
+    .carousel-item2 {
+      height: 65vh;
+      background-image: url('/public/carrusel2md.png');
     }
 
     .carousel-caption {
@@ -71,7 +82,7 @@
     }
 
     .eventsSection{  
-      justify-content: space-between;
+      justify-content: center;
     }   
 
     .eventos{

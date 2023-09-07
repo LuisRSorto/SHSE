@@ -75,7 +75,7 @@ const App = () => {
     <div>
     <MenuBar/>
     <Carousel showThumbs={false} dynamicHeight={false} transitionTime= {1}>
-      <div className="carousel-item">
+      <div className="carousel-item1">
         <img src="poster2.jpg" alt="Imagen 1" />
         <div className="carousel-overlay">
           <div className="carousel-caption">
@@ -94,7 +94,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="carousel-item">
+      <div className="carousel-item2">
         {/*<img src="carrusel2.png" alt="Imagen 2" />*/}
         <div className="carousel-overlay">
         <div className="carousel-caption">
