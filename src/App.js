@@ -122,27 +122,27 @@ const App = () => {
     />
     <div style={{ padding: '3em' , display:'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: '1em', marginBottom: '5em'}}>
         <div className='eventos'>
-          <img className='eventosImg' width="150px" height="150px" src={'conferencia.png'}/>
+          <img className='eventosImg' width="150px" height="150px" src={'conferencia.png'} alt='Conferencias'/>
           <p style={{ marginTop: 0, fontWeight: 'bold', marginBottom:0, color: '#a90087', fontSize: '50px', }}>6</p>
           <h2 style={{marginTop: 0}} >Conferencias</h2>
         </div> 
         <div className='eventos'>
-          <img  width="150px" height="150px" src={'paneles.png'}/>
+          <img  width="150px" height="150px" src={'paneles.png'} alt='Paneles'/>
           <p style={{marginTop: 0, fontWeight: 'bold', marginBottom:0, color: '#ff5500', fontSize: '50px'}}>3</p>
           <h2 style={{marginTop: 0}} >Paneles</h2>
         </div> 
         <div className='eventos'>
-          <img  width="150px" height="150px" src={'talleres.png'}/>
+          <img  width="150px" height="150px" src={'talleres.png'} alt='Talleres'/>
           <p style={{marginTop: 0, fontWeight: 'bold', marginBottom:0, color: '#11ff00', fontSize: '50px'}}>2</p>
           <h2 style={{marginTop: 0}} >Talleres</h2>
         </div> 
         <div className='eventos'>
-          <img  width="150px" height="150px" src={'networking.png'}/>
+          <img  width="150px" height="150px" src={'networking.png'} alt='Networking'/>
           <p style={{marginTop: 0, fontWeight: 'bold', marginBottom:0, color: 'red', fontSize: '50px'}}>1</p>
           <h2 style={{marginTop: 0}} >Networking</h2>
         </div> 
         <div className='eventos'>
-          <img  width="150px" height="150px" src={'bloques.png'}/>
+          <img  width="150px" height="150px" src={'bloques.png'} alt='Temáticos'/>
           <p style={{marginTop: 0, fontWeight: 'bold', marginBottom:0, color: '#fffb00', fontSize: '50px'}}>4</p>
           <h2 style={{marginTop: 0}} >Bloques Temáticos</h2>
         </div> 
