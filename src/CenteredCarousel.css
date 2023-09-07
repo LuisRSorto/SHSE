@@ -1,6 +1,11 @@
-.carousel-item {
+  .carousel-item {
     height: 100vh;
+    background-position: center;
+    background-image: url('/public/carrusel2.png');
+    background-size: cover;
   }
+
+
   img{
     background-position: fixed;
   }
@@ -42,7 +47,6 @@
     background-color: rgba(76, 70, 70, 0.7);
     border-radius: 5px;
   }
-
   .eventsSection{
     padding: 3em;  
     display: flex; 

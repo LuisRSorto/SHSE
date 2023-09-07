@@ -95,7 +95,7 @@ const App = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <img src="carrusel2.png" alt="Imagen 2" />
+        {/*<img src="carrusel2.png" alt="Imagen 2" />*/}
         <div className="carousel-overlay">
         <div className="carousel-caption">
             <h2 >28 y 29 de Septiembre</h2>
