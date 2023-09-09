@@ -21,8 +21,8 @@ const steps = [
   },
   {
     label: 'Paso #3',
-    description: `Si usted es estudiante universitario o afiliado de APOAUTIS o FUNTEAH, envíe su cranet de estudiante o omprobante 
-        de afiliciaón al correo gina@unah.edu.hn para recibir el descuento. Si usted no es estudiante, ni afiliado, pasa directo al paso #4.`,
+    description: `Si usted es estudiante universitario o afiliado de APOAUTIS o FUNTEAH, envíe su carnet de estudiante o comprobante 
+        de afiliación al correo gina@unah.edu.hn para recibir el descuento. Si usted no es estudiante, ni afiliado, pasa directo al paso #4.`,
   },
   {
     label: 'Paso #4',
