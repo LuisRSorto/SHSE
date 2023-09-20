@@ -14,10 +14,11 @@ import MenuItem from '@mui/material/MenuItem';
 const pages = [
     {id: '1', etiqueta: 'Acerca del evento'}, 
     {id: '2', etiqueta: 'Ubicacion'}, 
-    {id: '3', etiqueta: 'Programa'},
-    {id: '4', etiqueta: 'Información de pago'}, 
-    {id: '5', etiqueta: 'Bloques Temáticos'},
-    {id: '6', etiqueta: 'Pre-Inscribirse'},
+    {id: '3', etiqueta: 'Conferencistas'},
+    {id: '4', etiqueta: 'Programa'},
+    {id: '5', etiqueta: 'Información de pago'}, 
+    {id: '6', etiqueta: 'Bloques Temáticos'},
+    {id: '7', etiqueta: 'Pre-Inscribirse'},
 ];
 
 function MenuBar() {
@@ -86,7 +87,7 @@ function MenuBar() {
               {pages.map((page) => (
                 <ScrollLink 
                 to={page.id} 
-                onClick={page.id==='6' ? () =>
+                onClick={page.id==='7' ? () =>
                 (window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=uVcFQ3x26UyuVpcXdaiXqOyoI4O7oldNhUH2OwbwefxUNkNISDNQNjFIUTlGOEFBODkxUzhYUFM3Qy4u', '_blank')
                 ) : handleCloseNavMenu}
                 smooth={true} 
@@ -105,7 +106,7 @@ function MenuBar() {
             <ScrollLink to={page.id} smooth={true} duration={500}>
               <Button
                 key={page.id}
-                onClick={page.id==='6' ? () =>
+                onClick={page.id==='7' ? () =>
                 (window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=uVcFQ3x26UyuVpcXdaiXqOyoI4O7oldNhUH2OwbwefxUNkNISDNQNjFIUTlGOEFBODkxUzhYUFM3Qy4u', '_blank')
                  ) : handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}

@@ -12,8 +12,10 @@ import { Box, Container, Button } from '@mui/material';
 import BasicCard from './components/Cards/BasicCard';
 import Stepper from './components/Stepper/Stepper';
 import SimpleCard from './components/Cards/SimpleCard';
+import SpeakerCard from './components/Cards/SpeakerCard';
 
 const App = () => {
+
   const cardsInfo = [
     {
       titulo: 'Opción #1',
@@ -251,14 +253,22 @@ const App = () => {
       text='UNAH-VS Auditorio 2, Edificio 5, San Pedro Sula'
       imageSrc='mapaUnah.png'
     />
-    <div id='3'>
+    <div className='conferencistas bg' id='3'>
+        <div>
+          <h2 className='tittle'>Conferencistas</h2>
+        </div>  
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '5em'}}>
+          <SpeakerCard/>
+        </div>
+    </div>
+    <div id='4'>
         <h2 style={{textAlign: 'center'}} className='tittle'>Programa</h2>
         <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center', marginTop: '2em', marginBottom: '5em'}}>
           <img width="40%" height="auto" src={'programa28.png'} alt={`programa1`} />
           <img width="40%" height="auto" src={'programa29.png'} alt={`programa2`} />
         </div>
     </div>
-    <div className='pagoinfoSection' id='4'>
+    <div className='pagoinfoSection' id='5'>
         <div>
           <h2 className='tittle'>Información de Pago</h2>
         </div>
@@ -267,7 +277,7 @@ const App = () => {
           <BasicCard arreglo={cardsInfo}/>
         </div>
     </div>
-     <div id='5'>
+     <div id='6'>
       <h2 style={{marginLeft: '2em'}} className='tittle'>Bloques Temáticos</h2>
       <div style={{ display:'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: '1em', marginBottom: '10em'}}>
         <SimpleCard arreglo={bloques}/>

@@ -33,6 +33,58 @@
     background-size: cover;
   }
 
+  .conferencistas{
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+      transform-style: preserve-3d;
+      position: relative;
+      color: #FFF;
+    
+  }
+/************************************************************************************************************************************/
+  .conferencistas::after 
+{
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg::after 
+{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../public/fondoblanco1.jpg");
+  background-size: cover;
+}
+
+.confImg:hover{
+  transform: scale(1.3);
+  transition: 100ms;
+}
+
+.confCards:hover{
+  color: #FFF;
+}
+
+.confCardsbox:hover{
+  transform: scale(1.1);
+  transition: 100ms;
+  color: #FFF;
+  background-color:rgba(0, 0, 0, .5) ;
+}
+/************************************************************************************************************************************/
   .carousel-overlay {
     position: absolute;
     top: 0;
