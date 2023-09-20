@@ -23,7 +23,7 @@ export default function SpeakerCard() {
    
       conferencistas.map((person) => (
         <Box sx={{ minWidth: 275 }}>
-            <Card className='confCardsbox' variant="outlined" sx={{ margin: 4, width: 410, minHeight: 400, marginBottom: 0, boxShadow: '0 5px 8px 0 rgba(0, 0, 0, 0.3)'}}>
+            <Card className='confCardsbox' variant="outlined" sx={{ margin: 4, width: { xs: 310, md: 410 }, minHeight: 400, marginBottom: 0, boxShadow: '0 5px 8px 0 rgba(0, 0, 0, 0.3)'}}>
                 <Typography className='confCardsTittle' variant="h4" component="div" sx={{margin: 1.5, marginBottom: 0}}>
                         {person.nombre}
                 </Typography>
